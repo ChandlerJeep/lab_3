@@ -13,5 +13,5 @@ read expression
 grep $expression $filename
 egrep -c "[0-9]{3}-[0-9]{3}-[0-9]{4}$" regex_practice.txt
 egrep -c "@" regex_practice.txt
-egrep -c "^[0-9]{3}" regex_practice.txt
+egrep -c "^303-" regex_practice.txt
 egrep "@geocities.com$" regex_practice.txt >>email_results.txt
